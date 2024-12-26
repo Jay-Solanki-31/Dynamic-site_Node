@@ -1,0 +1,21 @@
+{
+  "name": "nodedynamic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.9.2",
+    "validator": "^13.12.0"
+  }
+}
